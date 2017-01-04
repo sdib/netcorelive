@@ -2,13 +2,13 @@
 
 ##Historique
 - Explication de .NET avant .NET Core 
-https://docs.microsoft.com/en-us/dotnet/articles/core/
-https://blogs.msdn.microsoft.com/dotnet/2016/09/26/introducing-net-standard/
+    - https://docs.microsoft.com/en-us/dotnet/articles/core/
+    - https://blogs.msdn.microsoft.com/dotnet/2016/09/26/introducing-net-standard/
     
 - Montrer l'utilitaire dotnet cli et créer une app console et la faire tourner
 
 - Explication de ASP.NET avant ASP.NET Core 
-https://docs.microsoft.com/en-us/aspnet/core/
+    - https://docs.microsoft.com/en-us/aspnet/core/
 - Montrer comment on transforme une console app en web app (montrer le main)
 
 - Expliquer que par défaut on tourne sous Kestrel (mini web server) et qu'il faut toujours un IIS ou un serveur NGINX
@@ -16,9 +16,9 @@ https://docs.microsoft.com/en-us/aspnet/core/
 
 ##Focus ASP.NET CORE
  - Parler Middleware
-https://docs.microsoft.com/en-us/aspnet/core/fundamentals/middleware
+    - https://docs.microsoft.com/en-us/aspnet/core/fundamentals/middleware
  - Creer un projet depuis ce template ci-dessous avec VS 2017 et l'exécuter
- http://blog.stevensanderson.com/2016/10/04/angular2-template-for-visual-studio/ 
+    - http://blog.stevensanderson.com/2016/10/04/angular2-template-for-visual-studio/ 
  - Expliquer les midlewares de bases : Log, static, mvc, TODO
  - Expliquer l'injection de l'inpendance => bout de code à faire
 
