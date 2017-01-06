@@ -25,9 +25,8 @@
  - Expliquer l'injection de l'inpendance => bout de code à faire
 
 ##Focus sur Visual Studio Code
-- Explication de Visual Studio Code
+- Explication de Visual Studio Code et Omnisharp
     -- Démo: Electron, Plugin "KeyBinding"
-    -- Omnisharp
 - Démo debug application
 
 # Pourquoi notre présentation est cool
@@ -49,13 +48,13 @@ Notre but est de guider sur :
 - La philosophie et l'architecture
 - Comment démarrer un projet sur la plateforme .Net Core
 - Montrer .Net Core sur un environnement Windows et Linux (Ubuntu)
-- Les fonctionnalités de base du Framework ASP.NET Core et tout ce que l'on peut faire (Injection dépendence, server side rendering, etc.)
+- Les fonctionnalités de base du Framework ASP.NET Core et tout ce que l'on peut faire (Injection dépendance, server side rendering, etc.)
 - Expliquer les outils associés
     - Focus Visual Studio Code et comment debugger 
 - Comment réaliser les tests unitaires
 - RoadMap de comment migrer une application AXA en ASP.NET Core.
 
-Une fois la présentation terminée, vous avez assez d'information pour démarrer.
+Une fois la présentation terminée, vous avez aurrez une vision assez large pour démarer.
 
 ## On va réaliser plusieurs fois la présentation afin de s'entraîner
 - https://twitter.com/cyril_lakech/status/816942892866531328
