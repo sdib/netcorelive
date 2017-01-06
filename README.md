@@ -54,7 +54,7 @@ Notre but est de guider sur :
 - Comment réaliser les tests unitaires
 - RoadMap de comment migrer une application AXA en ASP.NET Core.
 
-Une fois la présentation terminée, vous avez aurez une vision assez large pour démarer.
+Une fois la présentation terminée, vous avez aurez une vision assez large pour vous orientez vers cette technologie et démarer à coder.
 
 ## On va réaliser plusieurs fois la présentation afin de s'entraîner
 - https://twitter.com/cyril_lakech/status/816942892866531328
