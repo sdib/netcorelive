@@ -40,7 +40,7 @@ Microsoft a beaucoup copié le monde open source et notamment « node.js ». Cet
 - Le Server side rendering (angular2, React)
 
 La plateforme .NET existe depuis longtemps, elle bénéficie d’un très gros background de librairies existantes.
-Nous sommes persuadés que pour développé itérativement, efficassement, l'éco-système .Net Core est au top su top!
+Nous sommes persuadés que pour développé itérativement, efficacement, l'éco-système .Net Core est au top su top!
 
 ## Ce que va apporter la présentation
 .NET est une plateforme qui a un fort historique, le but est de re-contextualiser .Net Core dans cet historique.
@@ -54,7 +54,7 @@ Notre but est de guider sur :
 - Comment réaliser les tests unitaires
 - RoadMap de comment migrer une application AXA en ASP.NET Core.
 
-Une fois la présentation terminée, vous avez aurrez une vision assez large pour démarer.
+Une fois la présentation terminée, vous avez aurez une vision assez large pour démarer.
 
 ## On va réaliser plusieurs fois la présentation afin de s'entraîner
 - https://twitter.com/cyril_lakech/status/816942892866531328
