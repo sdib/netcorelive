@@ -9,14 +9,15 @@
 - Montrer l'utilitaire dotnet cli et créer une app console et la faire tourner 
     - https://github.com/dotnet/core
     - Simon sur Windows
-    - Pousser les sources dans git 
+    - Expliquer project.json
 
 ##Context ASP.NET - Guillaume
 - Explication de ASP.NET avant ASP.NET Core 
     - https://docs.microsoft.com/en-us/aspnet/core/
 - Comparaison avec NodeJS
 - Montrer comment on transforme une console app en web app (montrer le main)
-    - prendre la console app 
+    - Prendre la console app 
+    - Expliquer project.json
     - ajouter les packages nécessaires
     - ajouter Startup.cs avec les 2 methodes configure
     - dans le pipeline http renvoyer hello world en dur
@@ -30,8 +31,8 @@
  - Creer un projet depuis ce template ci-dessous avec VS 2017 et l'exécuter 
     - http://blog.stevensanderson.com/2016/10/04/angular2-template-for-visual-studio/ 
     - https://github.com/aspnet/JavaScriptServices/
-    - Expliquer project.json
     - Montrer live tests 
+
 - Creer un projet depuis ce template ci-dessous avec yeoman et l'exécuter - Guillaume Linux
     - npm install -g yo generator-aspnetcore-spa
     - Explication de Visual Studio Code et Omnisharp
