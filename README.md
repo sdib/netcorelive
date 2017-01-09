@@ -20,6 +20,7 @@
     - ajouter Startup.cs avec les 2 methodes configure
     - dans le pipeline http renvoyer hello world en dur
     - Expliquer que par défaut on tourne sous Kestrel (mini web server) et qu'il faut toujours un IIS ou un serveur NGINX
+        - https://docs.microsoft.com/en-us/aspnet/core/fundamentals/servers/
 
 ##Focus ASP.NET CORE
  - Parler Middleware - Simon
