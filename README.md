@@ -31,11 +31,12 @@
  - Parler Middleware - Simon
     - https://docs.microsoft.com/en-us/aspnet/core/fundamentals/middleware
  - Creer un projet depuis ce template ci-dessous avec VS 2017 et l'exécuter 
-    - http://blog.stevensanderson.com/2016/10/04/angular2-template-for-visual-studio/ 
-    - https://github.com/aspnet/JavaScriptServices/
+    - dotnet watch tools
     - Montrer live tests 
 
 - Creer un projet depuis ce template ci-dessous avec yeoman et l'exécuter - Guillaume Linux
+    - http://blog.stevensanderson.com/2016/10/04/angular2-template-for-visual-studio/ 
+    - https://github.com/aspnet/JavaScriptServices/
     - npm install -g yo generator-aspnetcore-spa
     - Explication de Visual Studio Code et Omnisharp
         - Démo: Electron, Plugin "KeyBinding", Debug 
