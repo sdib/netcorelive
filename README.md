@@ -10,11 +10,12 @@
     - https://github.com/dotnet/core
     - Simon sur Windows
     - Expliquer project.json
+    - Pousser sous git
 
 ##Context ASP.NET - Guillaume
 - Explication de ASP.NET avant ASP.NET Core 
     - https://docs.microsoft.com/en-us/aspnet/core/
-- Comparaison avec NodeJS
+
 - Montrer comment on transforme une console app en web app (montrer le main)
     - Prendre la console app 
     - Expliquer project.json
@@ -22,6 +23,7 @@
     - ajouter Startup.cs avec les 2 methodes configure
     - dans le pipeline http renvoyer hello world en dur
     - Expliquer que par défaut on tourne sous Kestrel (mini web server) et qu'il faut toujours un IIS ou un serveur NGINX
+        - Comparaison avec NodeJS
         - https://docs.microsoft.com/en-us/aspnet/core/fundamentals/servers/
         - Image node.js 
 
