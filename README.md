@@ -5,8 +5,9 @@
 - Explication de .NET avant .NET Core 
     - https://docs.microsoft.com/en-us/dotnet/articles/core/
     - https://blogs.msdn.microsoft.com/dotnet/2016/09/26/introducing-net-standard/
-
+    
 - Montrer l'utilitaire dotnet cli et créer une app console et la faire tourner 
+    - https://github.com/dotnet/core
     - Simon sur Windows
     - Pousser les sources dans git 
 
@@ -21,6 +22,7 @@
     - dans le pipeline http renvoyer hello world en dur
     - Expliquer que par défaut on tourne sous Kestrel (mini web server) et qu'il faut toujours un IIS ou un serveur NGINX
         - https://docs.microsoft.com/en-us/aspnet/core/fundamentals/servers/
+        - Image node.js 
 
 ##Focus ASP.NET CORE
  - Parler Middleware - Simon
@@ -31,6 +33,7 @@
     - Expliquer project.json
     - Montrer live tests 
 - Creer un projet depuis ce template ci-dessous avec yeoman et l'exécuter - Guillaume Linux
+    - npm install -g yo generator-aspnetcore-spa
     - Explication de Visual Studio Code et Omnisharp
         - Démo: Electron, Plugin "KeyBinding", Debug 
     - présentation csproj
