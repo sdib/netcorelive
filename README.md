@@ -1,7 +1,8 @@
 
 # Découverte ASP.NET CORE et son écosystème
 
-##Contexte .NET - Simon
+##Introduction
+##Context .NET - Simon
 - Explication de .NET avant .NET Core 
     - https://docs.microsoft.com/en-us/dotnet/articles/core/
     - https://blogs.msdn.microsoft.com/dotnet/2016/09/26/introducing-net-standard/
@@ -19,6 +20,7 @@
 - Montrer comment on transforme une console app en web app (montrer le main)
     - Prendre la console app 
     - Expliquer project.json
+        - https://docs.nuget.org/ndocs/schema/project.json
     - ajouter les packages nécessaires
     - ajouter Startup.cs avec les 2 methodes configure
     - dans le pipeline http renvoyer hello world en dur
@@ -38,8 +40,8 @@
     - http://blog.stevensanderson.com/2016/10/04/angular2-template-for-visual-studio/ 
     - https://github.com/aspnet/JavaScriptServices/
     - npm install -g yo generator-aspnetcore-spa
-    - Explication de Visual Studio Code et Omnisharp
-        - Démo: Electron, Plugin "KeyBinding", Debug 
+    - Explication de Visual Studio Code et Omnisharp (https://github.com/omnisharp)
+        - Démo: Electron (http://electron.atom.io), Plugin "KeyBinding", Debug 
     - présentation csproj
 
 - Expliquer les midlewares de bases : Log, static, mvc, authent, pages d'erreurs en dev, customs 
@@ -47,8 +49,9 @@
 - Expliquer le nouveau système de configuration - Guillaume
 - Déploiement Azure - Simon
 - Migration appli existante - Guillaume
-
+##Conclusion
 ##Questions / Réponses
+
 
 # Pourquoi notre présentation est cool
 
