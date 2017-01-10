@@ -2,6 +2,7 @@
 # Découverte ASP.NET CORE et son écosystème
 
 ##Introduction
+
 ##Context .NET - Simon
 - Explication de .NET avant .NET Core 
     - https://docs.microsoft.com/en-us/dotnet/articles/core/
@@ -9,9 +10,12 @@
     
 - Montrer l'utilitaire dotnet cli et créer une app console et la faire tourner 
     - https://github.com/dotnet/core
-    - Simon sur Windows
-    - Expliquer project.json
-    - Pousser sous git
+    - Démo sur Windows dotnet new
+    - Expliquer project.json, .lock
+    - Expliquer que par défaut pas d'exe, séléction du runtime (optimisé) par rapport à la plateforme
+            - https://docs.nuget.org/ndocs/schema/project.json
+    - Expliquer Exemple librairie Aspose (basculer full dotnet framework)
+    - Restaurer la preview 4 du SDK
 
 ##Context ASP.NET - Guillaume
 - Explication de ASP.NET avant ASP.NET Core 
@@ -19,11 +23,10 @@
 
 - Montrer comment on transforme une console app en web app (montrer le main)
     - Prendre la console app 
-    - Expliquer project.json
-        - https://docs.nuget.org/ndocs/schema/project.json
-    - ajouter les packages nécessaires
-    - ajouter Startup.cs avec les 2 methodes configure
-    - dans le pipeline http renvoyer hello world en dur
+    - Expliquer project.json => project.csproj
+    - Ajouter les packages nécessaires
+    - Ajouter Startup.cs avec les 2 methodes configure
+    - Dans le pipeline http renvoyer hello world en dur
     - Expliquer que par défaut on tourne sous Kestrel (mini web server) et qu'il faut toujours un IIS ou un serveur NGINX
         - Comparaison avec NodeJS
         - https://docs.microsoft.com/en-us/aspnet/core/fundamentals/servers/
@@ -33,7 +36,7 @@
  - Parler Middleware - Simon
     - https://docs.microsoft.com/en-us/aspnet/core/fundamentals/middleware
  - Creer un projet depuis ce template ci-dessous avec VS 2017 et l'exécuter 
-    - dotnet watch tools
+    - Montrer dotnet watch
     - Montrer live tests 
 
 - Creer un projet depuis ce template ci-dessous avec yeoman et l'exécuter - Guillaume Linux
@@ -49,7 +52,9 @@
 - Expliquer le nouveau système de configuration - Guillaume
 - Déploiement Azure - Simon
 - Migration appli existante - Guillaume
+
 ##Conclusion
+
 ##Questions / Réponses
 
 
