@@ -31,28 +31,29 @@
         - https://docs.microsoft.com/en-us/aspnet/core/fundamentals/servers/
         - Comparaison avec NodeJS => http://aldb.github.io/2016/07/14/differences-between-web-servers/
 
-##Focus ASP.NET CORE
- - Parler Middleware - Simon
+##Focus ASP.NET CORE - Simon
+ - Parler Middleware 
     - https://docs.microsoft.com/en-us/aspnet/core/fundamentals/middleware
- - Creer un projet depuis ce template ci-dessous avec VS 2017 et l'exécuter 
-    - Montrer dotnet watch
-    - Montrer live tests 
+    - Expliquer les midlewares de bases : Log, static, mvc, authent, pages d'erreurs en dev, customs 
+    - Expliquer l'injection de l'inpendance => bout de code à faire
+    - Expliquer le nouveau système de configuration
 
+##Focus Eco système - Guillaume
 - Creer un projet depuis ce template ci-dessous avec yeoman et l'exécuter - Guillaume Linux
     - http://blog.stevensanderson.com/2016/10/04/angular2-template-for-visual-studio/ 
     - https://github.com/aspnet/JavaScriptServices/
     - npm install -g yo generator-aspnetcore-spa
-    - Explication de Visual Studio Code et Omnisharp (https://github.com/omnisharp)
-        - Démo: Electron (http://electron.atom.io), Plugin "KeyBinding", Debug 
-    - présentation csproj
+    - Explication de Visual Studio Code (http://electron.atom.io) et Omnisharp (https://github.com/omnisharp)
+        - Démo: Plugin "KeyBinding", Debug 
 
-- Expliquer les midlewares de bases : Log, static, mvc, authent, pages d'erreurs en dev, customs 
-- Expliquer l'injection de l'inpendance => bout de code à faire - Simon
-- Expliquer le nouveau système de configuration - Guillaume
-- Déploiement Azure - Simon
-- Migration appli existante - Guillaume
+##Focus test unitaire
+- Creer un projet depuis ce template ci-dessous avec VS 2017 et l'exécuter 
+    - Montrer dotnet watch
+    - Montrer live tests 
 
 ##Conclusion
+- Déploiement Azure - Simon
+- Migration appli existante - Guillaume
 
 ##Questions / Réponses
 
