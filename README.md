@@ -2,7 +2,7 @@
 # Découverte ASP.NET CORE et son écosystème
 
 ##Introduction
-
+- https://www.microsoft.com/net/core/support/
 ##Context .NET - Simon
 - Explication de .NET avant .NET Core 
     - https://docs.microsoft.com/en-us/dotnet/articles/core/
@@ -42,7 +42,7 @@
 - Creer un projet depuis ce template ci-dessous avec yeoman et l'exécuter - Guillaume Linux
     - http://blog.stevensanderson.com/2016/10/04/angular2-template-for-visual-studio/ 
     - https://github.com/aspnet/JavaScriptServices/
-    - npm install -g yo generator-aspnetcore-spa
+    - http://yeoman.io/
     - Explication de Visual Studio Code (http://electron.atom.io) et Omnisharp (https://github.com/omnisharp)
         - Démo: Plugin "KeyBinding", Debug 
 
