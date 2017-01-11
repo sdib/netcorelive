@@ -39,7 +39,7 @@
     - Expliquer l'injection de l'inpendance => bout de code à faire
     - Expliquer le nouveau système de configuration
 
-##Focus Eco système - Guillaume
+##Focus eco système - Guillaume
 - Creer un projet depuis ce template ci-dessous avec yeoman et l'exécuter - Guillaume Linux
     - http://blog.stevensanderson.com/2016/10/04/angular2-template-for-visual-studio/ 
     - https://github.com/aspnet/JavaScriptServices/
@@ -47,7 +47,7 @@
     - Explication de Visual Studio Code (http://electron.atom.io) et Omnisharp (https://github.com/omnisharp)
         - Démo: Plugin "KeyBinding", Debug 
 
-##Focus test unitaire
+##Focus test unitaire - Simon
 - Creer un projet depuis ce template ci-dessous avec VS 2017 et l'exécuter 
     - Montrer dotnet watch run
     - Montrer dotnet watch test (optional)
