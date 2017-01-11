@@ -3,6 +3,7 @@
 
 ##Introduction
 - https://www.microsoft.com/net/core/support/
+
 ##Context .NET - Simon
 - Explication de .NET avant .NET Core 
     - https://docs.microsoft.com/en-us/dotnet/articles/core/
@@ -48,8 +49,8 @@
 
 ##Focus test unitaire
 - Creer un projet depuis ce template ci-dessous avec VS 2017 et l'exécuter 
-    - Montrer dotnet watch
-    - Montrer live tests 
+    - Montrer dotnet watch run
+    - Montrer dotnet watch test (optional)
 
 ##Conclusion
 - Déploiement Azure - Simon
