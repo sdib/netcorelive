@@ -15,7 +15,6 @@
     - Expliquer project.json, .lock
     - Expliquer que par défaut pas d'exe, séléction du runtime (optimisé) par rapport à la plateforme
             - https://docs.nuget.org/ndocs/schema/project.json
-    - Expliquer Exemple librairie Aspose (basculer full dotnet framework)
     - Restaurer la preview 4 du SDK
 
 ##Context ASP.NET - Guillaume
@@ -24,6 +23,8 @@
 
 - Montrer comment on transforme une console app en web app (montrer le main)
     - Prendre la console app 
+    - Explication de Visual Studio Code (http://electron.atom.io) et Omnisharp (https://github.com/omnisharp)
+        - Démo: Plugin "KeyBinding", Debug 
     - Expliquer project.json => project.csproj
     - Ajouter les packages nécessaires
     - Ajouter Startup.cs avec les 2 methodes configure
@@ -32,20 +33,17 @@
         - https://docs.microsoft.com/en-us/aspnet/core/fundamentals/servers/
         - Comparaison avec NodeJS => http://aldb.github.io/2016/07/14/differences-between-web-servers/
 
+- Creer un projet depuis ce template ci-dessous avec yeoman et l'exécuter - Guillaume Linux
+    - http://blog.stevensanderson.com/2016/10/04/angular2-template-for-visual-studio/ 
+    - http://yeoman.io/
+    - https://github.com/aspnet/JavaScriptServices/
+
 ##Focus ASP.NET CORE - Simon
  - Parler Middleware 
     - https://docs.microsoft.com/en-us/aspnet/core/fundamentals/middleware
     - Expliquer les midlewares de bases : Log, static, mvc, authent, pages d'erreurs en dev, customs 
     - Expliquer l'injection de l'inpendance => bout de code à faire
     - Expliquer le nouveau système de configuration
-
-##Focus eco système - Guillaume
-- Creer un projet depuis ce template ci-dessous avec yeoman et l'exécuter - Guillaume Linux
-    - http://blog.stevensanderson.com/2016/10/04/angular2-template-for-visual-studio/ 
-    - http://yeoman.io/
-    - https://github.com/aspnet/JavaScriptServices/
-    - Explication de Visual Studio Code (http://electron.atom.io) et Omnisharp (https://github.com/omnisharp)
-        - Démo: Plugin "KeyBinding", Debug 
 
 ##Focus test unitaire - Simon
 - Creer un projet depuis ce template ci-dessous avec VS 2017 et l'exécuter 
