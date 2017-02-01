@@ -26,7 +26,7 @@
 - Montrer comment on transforme une console app en web app (montrer le main)
     - Prendre la console app 
     - Explication de Visual Studio Code (http://electron.atom.io) et Omnisharp (https://github.com/omnisharp)
-        - Démo: Plugin "KeyBinding", Debug 
+        - Démo: Plugin "KeyBinding" 
     - Expliquer project.json => project.csproj
     - Ajouter les packages nécessaires
     - Ajouter Startup.cs avec les 2 methodes configure
@@ -39,6 +39,7 @@
     - http://blog.stevensanderson.com/2016/10/04/angular2-template-for-visual-studio/ 
     - http://yeoman.io/
     - https://github.com/aspnet/JavaScriptServices/
+    - Debug VS Code
 
 ##Focus ASP.NET CORE - Simon
  - Parler Middleware 
