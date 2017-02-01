@@ -13,9 +13,11 @@
     - https://github.com/dotnet/core
     - Démo sur Windows dotnet new
     - Expliquer project.json, .lock
-    - Expliquer que par défaut pas d'exe, séléction du runtime (optimisé) par rapport à la plateforme
+    - Expliquer que par défaut pas d'exe, séléction du runtime win7-x64 (optimisé) par rapport à la plateforme
             - https://docs.nuget.org/ndocs/schema/project.json
+    - Ajouter le framwework net461
     - Restaurer la preview 4 du SDK
+    - Introduction csproj
 
 ##Context ASP.NET - Guillaume
 - Explication de ASP.NET avant ASP.NET Core 
