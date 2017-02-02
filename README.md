@@ -25,12 +25,12 @@
 
 - Montrer comment on transforme une console app en web app (montrer le main)
     - Prendre la console app 
+        - Expliquer project.json => project.csproj
+        - Ajouter les packages nécessaires
+        - Ajouter Startup.cs avec les 2 methodes configure
+        - Dans le pipeline http renvoyer hello world en dur
     - Explication de Visual Studio Code (http://electron.atom.io) et Omnisharp (https://github.com/omnisharp)
         - Démo: Plugin "KeyBinding" 
-    - Expliquer project.json => project.csproj
-    - Ajouter les packages nécessaires
-    - Ajouter Startup.cs avec les 2 methodes configure
-    - Dans le pipeline http renvoyer hello world en dur
     - Expliquer que par défaut on tourne sous Kestrel (mini web server) et qu'il faut toujours un IIS ou un serveur NGINX
         - https://docs.microsoft.com/en-us/aspnet/core/fundamentals/servers/
         - Comparaison avec NodeJS => http://aldb.github.io/2016/07/14/differences-between-web-servers/
