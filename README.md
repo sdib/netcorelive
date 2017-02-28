@@ -1,5 +1,5 @@
 
-# Découverte ASP.NET CORE et son écosystème \#BBLAXA
+# Découverte ASP.NET CORE et son écosystème \#DEVOXX
 
 ##Introduction
 - https://www.microsoft.com/net/core/support/
@@ -12,50 +12,45 @@
 - Montrer l'utilitaire dotnet cli et créer une app console et la faire tourner 
     - https://github.com/dotnet/core
     - Démo sur Windows dotnet new
-    - Expliquer project.json, .lock
-    - Expliquer que par défaut pas d'exe, séléction du runtime win7-x64 (optimisé) par rapport à la plateforme
-            - https://docs.nuget.org/ndocs/schema/project.json
-    - Ajouter le framwework net461
-    - Restaurer la preview 4 du SDK
     - Introduction csproj
+            - rapide présentation
+    - Expliquer que par défaut pas d'exe, séléction du runtime win7-x64 (optimisé) par rapport à la plateforme
+            - montrer l'output
+            - CLR .NET Core incluse
+    - Ajouter le framwework net461 
+            - montrer qu'on peut optimiser l'output pour un runtime donné si on le connait
 
 ##Context ASP.NET - Guillaume
-- Explication de ASP.NET avant ASP.NET Core 
-    - https://docs.microsoft.com/en-us/aspnet/core/
-
-- Montrer comment on transforme une console app en web app (montrer le main)
-    - Prendre la console app 
-        - Expliquer project.json => project.csproj
-        - Ajouter les packages nécessaires
-        - Ajouter Startup.cs avec les 2 methodes configure
-        - Dans le pipeline http renvoyer hello world en dur
-    - Explication de Visual Studio Code (http://electron.atom.io) et Omnisharp (https://github.com/omnisharp)
-        - Démo: Plugin "KeyBinding" 
-    - Expliquer que par défaut on tourne sous Kestrel (mini web server) et qu'il faut toujours un IIS ou un serveur NGINX
-        - https://docs.microsoft.com/en-us/aspnet/core/fundamentals/servers/
-        - Comparaison avec NodeJS => http://aldb.github.io/2016/07/14/differences-between-web-servers/
-
-- Creer un projet depuis ce template ci-dessous avec yeoman et l'exécuter - Guillaume Linux
-    - http://blog.stevensanderson.com/2016/10/04/angular2-template-for-visual-studio/ 
-    - http://yeoman.io/
-    - https://github.com/aspnet/JavaScriptServices/
-    - Debug VS Code
-
-##Focus ASP.NET CORE - Simon
+(Noyer la présentation VS Code dans cette partie Explication de Visual Studio Code (http://electron.atom.io) et Omnisharp (https://github.com/omnisharp))
+##Focus ASP.NET CORE - Simon / Guigui
  - Parler Middleware 
     - https://docs.microsoft.com/en-us/aspnet/core/fundamentals/middleware
     - Expliquer les midlewares de bases : Log, static, mvc, authent, pages d'erreurs en dev, customs 
-    - Expliquer l'injection de l'inpendance => bout de code à faire
-    - Expliquer le nouveau système de configuration
+- Expliquer l'injection de l'inpendance => bout de code à faire
+- Expliquer le nouveau système de configuration
+- Ajouter un watch pour run 
+- https://github.com/aspnet/JavaScriptServices/
 
-##Focus test unitaire - Simon
-- Creer un projet depuis ce template ci-dessous avec VS 2017 et l'exécuter 
-    - Montrer dotnet watch run
-    - Montrer dotnet watch test (optional)
+#Git à préparer
+
+- version serveur vide 
+- ajouter un middleware helloworld 
+    - Expliquer que par défaut on tourne sous Kestrel (mini web server) et qu'il faut toujours un IIS ou un serveur NGINX
+        - https://docs.microsoft.com/en-us/aspnet/core/fundamentals/servers/
+        - Comparaison avec NodeJS => http://aldb.github.io/2016/07/14/differences-between-web-servers/
+- ajouter un watch run
+- ajouter une controleur MVC  
+- ajouter des services pour injection de dépendence (1 service / environnement)
+- une configuration par environnement
+- ajouter middleware webpack
+- publication sur Azure en command line
+
+#Resources 
+- blog steven handerson template webpack aspnetcore
 
 ##Conclusion
-- Déploiement Azure - Simon
-- Migration appli existante - Guillaume
+
+
 
 ##Questions / Réponses
 
@@ -101,4 +96,3 @@ Une fois la présentation terminée, vous avez aurez une vision assez large pour
 ## On va réaliser plusieurs fois la présentation afin de s'entraîner
 - https://twitter.com/cyril_lakech/status/816942892866531328
 - https://github.com/sdib/netcorelive
-
