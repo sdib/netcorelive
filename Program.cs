@@ -8,8 +8,13 @@ namespace netcorelive
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello world !");
-            Console.ReadKey();
+            var host = new WebHostBuilder()
+                .UseKestrel()
+                .UseContentRoot(Directory.GetCurrentDirectory())
+                .UseStartup<Startup>()
+                .Build();
+
+            host.Run();
         }
     }
 }
