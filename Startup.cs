@@ -8,9 +8,25 @@ namespace netcorelive
 {
     public class Startup 
     {
-        public void Configure(IApplicationBuilder app) 
+        public void Configure(IApplicationBuilder app, ILoggerFactory loggerFactory) 
         {
-            app.Run(context => context.Response.WriteAsync("Hello Devoxx !"));
+            loggerFactory.AddConsole();
+            loggerFactory.AddDebug();
+            
+            //app.UseDeveloperExceptionPage();
+            app.UseStaticFiles();
+            
+            app.UseMvc(routes =>
+            {
+                routes.MapRoute(
+                    name: "default",
+                    template: "{controller=Home}/{action=Index}/{id?}");
+            });
+        }
+
+        public void ConfigureServices(IServiceCollection services) 
+        {
+            services.AddMvc();
         }
     }
 }
