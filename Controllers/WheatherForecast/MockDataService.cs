@@ -6,20 +6,28 @@ namespace netcorelive.Controllers.WheatherForecast
 {
     public class MockDataService : IDataService
     {
-
-        private static string[] Summaries = new[]
-        {
-            "Freezing", "Bracing", "Chilly", "Cool", "Mild", "Warm", "Balmy", "Hot", "Sweltering", "Scorching"
-        };
-
         IEnumerable<WeatherForecast> IDataService.GetWeatherForecasts(int startDateIndex)
         {
-            return Enumerable.Range(1, 5).Select(index => new WeatherForecast
-            {
-                DateFormatted = DateTime.Now.AddDays(index + startDateIndex).ToString("d"),
-                TemperatureC = 20,
-                Summary = Summaries[6]
-            });
+            return new List<WeatherForecast>(){
+                new WeatherForecast
+                {
+                    DateFormatted = DateTime.Now.AddDays(1 + startDateIndex).ToString("d"),
+                    TemperatureC = 0,
+                    Summary = "Freezing"
+                },
+                new WeatherForecast
+                {
+                    DateFormatted = DateTime.Now.AddDays(2 + startDateIndex).ToString("d"),
+                    TemperatureC = 35,
+                    Summary = "Hot"
+                },
+                new WeatherForecast
+                {
+                    DateFormatted = DateTime.Now.AddDays(3 + startDateIndex).ToString("d"),
+                    TemperatureC = 20,
+                    Summary = "Warm"
+                }
+            };
         }
     }
 
