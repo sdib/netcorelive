@@ -1,11 +1,17 @@
 using System;
 using System.Collections.Generic;
 using System.Linq;
+using Microsoft.Extensions.Options;
 
 namespace netcorelive.Controllers.WheatherForecast
 {
     public class RealDataService : IDataService
     {
+        private readonly MeteoFranceOptions _meteoFranceOptions;
+
+        public RealDataService(IOptions<MeteoFranceOptions> meteoFranceOptionsAccessor){
+            _meteoFranceOptions = meteoFranceOptionsAccessor.Value;
+        }
          private static string[] Summaries = new[]
         {
             "Freezing", "Bracing", "Chilly", "Cool", "Mild", "Warm", "Balmy", "Hot", "Sweltering", "Scorching"
@@ -17,7 +23,7 @@ namespace netcorelive.Controllers.WheatherForecast
             return Enumerable.Range(1, 5).Select(index => new WeatherForecast
             {
                 DateFormatted = DateTime.Now.AddDays(index + startDateIndex).ToString("d"),
-                TemperatureC = rng.Next(-20, 55),
+                TemperatureC = rng.Next(_meteoFranceOptions.TemperatureMinimum, _meteoFranceOptions.TemperatureMaximum),
                 Summary = Summaries[rng.Next(Summaries.Length)]
             });
         }
