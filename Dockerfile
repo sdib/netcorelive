@@ -1,13 +1,15 @@
-FROM microsoft/dotnet:latest
+FROM microsoft/aspnetcore-build:1.1.1
 
-WORKDIR /dotnetapp
+WORKDIR /app
 
 # copy project.json and restore as distinct layers
-COPY netcorelive.csproj .
+COPY *.csproj .
 RUN dotnet restore
 
 #copy and build everything else
 COPY . .
-#RUN dotnet run -r debian.8-x64
+
+RUN dotnet --version
 RUN dotnet publish -c Release -o out -r debian.8-x64
-ENTRYPOINT ["dotnet", "out/dotnetapp.dll"]
+
+ENTRYPOINT ["dotnet", "out/netcorelive.dll", "-r", "debian.8-x64"]
